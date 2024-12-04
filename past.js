@@ -21,7 +21,7 @@ function startAutoScroll() {
     ) {
       clearInterval(scrollInterval); // Stop scrolling when the end is reached
     }
-  }, 10); // Adjust this value to control smoothness
+  }, 100); // Adjust this value to control smoothness
 }
 
 // Open modal with larger image

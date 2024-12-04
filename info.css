@@ -12,6 +12,8 @@ img {
   padding-top: 90px;
   display: flex;
   animation: fadeInUp 1.5s ease-out forwards;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .content {
@@ -27,16 +29,16 @@ img {
   display: inline-block;
   background-color: #261d31;
   position: absolute;
-  width: 400px;
-  height: 800px;
+  width: 350px;
+  height: 700px;
   border-radius: 15px 0 0 15px;
-  padding: 20px; /* Add padding for better text positioning */
+  padding: 20px;
   box-sizing: border-box;
 }
 
 .left-container p {
   color: rgba(255, 255, 255, 0.171);
-  font-size: 18px; /* Adjust text size */
+  font-size: 18px;
   font-family: Inter;
   margin: 0;
   padding-left: 20px;
@@ -46,7 +48,7 @@ img {
 .right-container p {
   padding-top: 20px;
   color: white;
-  font-size: 18px; /* Adjust text size */
+  font-size: 18px;
   font-family: Inter;
   font-weight: 700;
   margin: 0;
@@ -55,22 +57,22 @@ img {
 
 .right-container {
   position: absolute;
-  left: 400px;
+  left: 350px;
   display: inline-block;
   background-color: #34273e;
-  width: 1100px;
-  height: 800px;
+  width: 950px;
+  height: 700px;
   border-radius: 0 15px 15px 0;
 }
 
 .button-box {
   padding-top: 25px;
-  width: 500px;
-  display: flex; /* Use flexbox for alignment */
-  flex-direction: column; /* Stack buttons vertically */
-  align-items: flex-end; /* Align buttons to the right */
-  padding-right: 50px; /* Adjust padding as needed */
-  margin-left: 440px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 50px;
+  margin-left: 400px;
 }
 
 .button-box button {
@@ -109,22 +111,21 @@ img {
   margin: 0px;
   width: 60px;
   left: 40px;
-  top: 350px;
+  top: 300px;
 }
 
 .info {
   margin-top: 15px;
   margin-left: 120px;
-
   padding: 0;
-  width: 500px;
+  width: 450px;
 }
 
 .search {
   position: absolute;
   width: 80%;
   padding-left: 100px;
-  top: 600px;
+  top: 550px;
 }
 .tabs {
   padding: 0px;
