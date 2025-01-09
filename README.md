@@ -5,9 +5,9 @@
 This is the WAI DataQuest 2025 website!
 
 ## Technologies Used
+- React
 - HTML
 - CSS
-- JavaScript
 
 ## Acknowledgments
 
