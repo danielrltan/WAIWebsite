@@ -17,14 +17,14 @@ import Sponsors from "./Sponsors";
 function Dataquest() {
   return (
     <div className="home-container">
-      <PageHome />;
+      <PageHome />
       <img className="big-logo" src={BigLogo} />
     </div>
   );
 }
 
 function FAQ() {
-  return <PageFAQ />;
+  return <PageFAQ />
 }
 
 function App() {
