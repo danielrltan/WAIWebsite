@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import TopLogo from "./assets/toplogo.png";
+import "./Navbar.css";
 
 function Navbar() {
   return (
     <nav className="nav">
-      <img className="top-logo" src={TopLogo} />
+      <img className="top-logo" src={TopLogo} alt="Logo" />
       <ul>
         <li>
           <Link to="/dataquest">Dataquest</Link>

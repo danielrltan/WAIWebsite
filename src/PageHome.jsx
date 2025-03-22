@@ -8,7 +8,7 @@ function PageHome() {
       <p className="description">
         Western's largest and greatest AI Hackathon.
       </p>
-      <p className="date">// March 22, 2025</p>
+      <p className="date">// March 27-30, 2025</p>
     </div>
   );
 }

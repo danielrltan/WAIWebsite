@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 2rem 3rem;
+  margin-top: 0.35rem;
+  gap: 4rem;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: opacity 0.2s ease;
+}
+
+.nav a:hover {
+  opacity: 0.8;
+}
+
+.top-logo {
+  height: 50px;
+  width: auto;
+} 

@@ -72,7 +72,7 @@ function PageFAQ() {
                 strings: [displayText],
                 autoStart: true,
                 loop: false, // Do not repeat the typing effect
-                delay: 50, // Speed of typing (ms per character)
+                delay: 5, // Speed of typing (ms per character)
                 cursor: "", // Removes the blinking cursor
               }}
             />
