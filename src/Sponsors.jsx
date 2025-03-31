@@ -12,7 +12,7 @@ const Sponsors = () => {
       <div className="container">
         <div className="grid">
           <div className="card">
-            <a href="https://nordvpn.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://nordvpn.com/hackathons" target="_blank" rel="noopener noreferrer">
               <img src={Sponsor1} alt="Sponsor 1" className="icon" />
             </a>
           </div>
